@@ -1,0 +1,23 @@
+# Ignore build and IDE-specific files
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.iml
+*.project
+*.classpath
+*.settings/
+.idea/
+.vscode/
+
+# Ignore Maven/Gradle build output
+target/
+build/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency directories
+node_modules/
